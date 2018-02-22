@@ -25,7 +25,7 @@ class SwiftSynchronized_ExampleTests: XCTestCase {
 		// This is an example of a performance test case.
 		var synchronizedMap = SynchronizedDictionary<Int, Any>.init(object: [:])
 		
-		DispatchQueue.concurrentPerform(iterations: 1000) { index in
+		DispatchQueue.concurrentPerform(iterations: 10000) { index in
 			synchronizedMap[index] = "\(index)"
 			synchronizedMap[22] = "NONONO"
 		}
@@ -35,16 +35,12 @@ class SwiftSynchronized_ExampleTests: XCTestCase {
 		// This is an example of a performance test case.
 		var synchronizedMap = SynchronizedDictionary<Int, Any>.init(object: [:])
 		
-		var index = 0
-		func index1() -> Int {
-			index += 1
-			return index
-		}
-		
 		self.measure() {
-			let index = index1()
-			synchronizedMap[index] = "\(index)"
-			synchronizedMap[22] = "NONONO"
+			for index in 0...10000 {
+				synchronizedMap[index] = "\(index)"
+				synchronizedMap[22] = "NONONO"
+				synchronizedMap.removeValue(forKey: index)
+			}
 		}
 	}
 	
@@ -52,16 +48,12 @@ class SwiftSynchronized_ExampleTests: XCTestCase {
 		// This is an example of a performance test case.
 		var synchronizedMap = Dictionary<Int, Any>.init()
 		
-		var index = 0
-		func index1() -> Int {
-			index += 1
-			return index
-		}
-		
 		self.measure() {
-			let index = index1()
-			synchronizedMap[index] = "\(index)"
-			synchronizedMap[22] = "NONONO"
+			for index in 0...10000 {
+				synchronizedMap[index] = "\(index)"
+				synchronizedMap[22] = "NONONO"
+				synchronizedMap.removeValue(forKey: index)
+			}
 		}
 	}
 	
