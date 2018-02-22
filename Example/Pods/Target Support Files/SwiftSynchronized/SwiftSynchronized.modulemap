@@ -1,0 +1,6 @@
+framework module SwiftSynchronized {
+  umbrella header "SwiftSynchronized-umbrella.h"
+
+  export *
+  module * { export * }
+}
