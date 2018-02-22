@@ -53,6 +53,16 @@
                ReferencedContainer = "container:SwiftSynchronized.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75EE02FE203EE08100EE022F"
+               BuildableName = "SwiftSynchronized_ExampleTests.xctest"
+               BlueprintName = "SwiftSynchronized_ExampleTests"
+               ReferencedContainer = "container:SwiftSynchronized.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

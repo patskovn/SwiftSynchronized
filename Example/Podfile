@@ -3,7 +3,7 @@ use_frameworks!
 target 'SwiftSynchronized_Example' do
   pod 'SwiftSynchronized', :path => '../'
 
-  target 'SwiftSynchronized_Tests' do
+  target 'SwiftSynchronized_ExampleTests' do
     inherit! :search_paths
 
     
