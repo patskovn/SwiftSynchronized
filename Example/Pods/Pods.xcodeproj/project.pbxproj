@@ -17,7 +17,6 @@
 		78322FEB0A97AFF643F2E408EE9A6436 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7BB34A53461C0EB3D92EEA99F5880 /* Synchronized.swift */; };
 		8D8602FB707B8A11BA5BF82FB6C85216 /* Pods-SwiftSynchronized_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC6225AC411E5CC2E1A7D77DEADE849 /* Pods-SwiftSynchronized_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90D0C5B13851A437D378FA696B4E4A33 /* Pods-SwiftSynchronized_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85256C6827D54507EDA1B2F01A04926 /* Pods-SwiftSynchronized_Example-dummy.m */; };
-		E6306036440FDBC90F896556BB1E0609 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652CABC6EDDA65CEBD8A4F8043921C07 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,30 +32,29 @@
 /* Begin PBXFileReference section */
 		012A74DD0EC898C21A29E1284864F410 /* Pods-SwiftSynchronized_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSynchronized_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0D4FFC08C62C21F2A6824597F70609DD /* Pods-SwiftSynchronized_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSynchronized_Example-frameworks.sh"; sourceTree = "<group>"; };
-		107D0A7F65EFEFA0AB54EE05DBF5C9A8 /* Pods_SwiftSynchronized_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftSynchronized_ExampleTests.framework; path = "Pods-SwiftSynchronized_ExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107D0A7F65EFEFA0AB54EE05DBF5C9A8 /* Pods_SwiftSynchronized_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSynchronized_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		138466334EC79D4DD64B0DA24CA8B0C9 /* SwiftSynchronized-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSynchronized-dummy.m"; sourceTree = "<group>"; };
 		1C4FD9429891CC67BED0ED801CC7BAB7 /* Pods-SwiftSynchronized_ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSynchronized_ExampleTests-umbrella.h"; sourceTree = "<group>"; };
 		1CE8FAB205440E3604F6D01C29567040 /* Pods-SwiftSynchronized_ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSynchronized_ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		283F2B473B0C9578652EEA8FABF281FB /* Pods-SwiftSynchronized_ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSynchronized_ExampleTests-resources.sh"; sourceTree = "<group>"; };
 		29AB51ADFA502CF4049BA17B5FFDFF9F /* Pods-SwiftSynchronized_ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSynchronized_ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
-		3AC877036CEBA9E0A47DB4032C23C4D2 /* Pods-SwiftSynchronized_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftSynchronized_Example.modulemap"; sourceTree = "<group>"; };
-		4C9B523418D9496CC3A2936AAB51D62A /* Pods_SwiftSynchronized_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftSynchronized_Example.framework; path = "Pods-SwiftSynchronized_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC877036CEBA9E0A47DB4032C23C4D2 /* Pods-SwiftSynchronized_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSynchronized_Example.modulemap"; sourceTree = "<group>"; };
+		4C9B523418D9496CC3A2936AAB51D62A /* Pods_SwiftSynchronized_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSynchronized_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E52B00C24A5806CC0453A037C474CCF /* Pods-SwiftSynchronized_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSynchronized_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5F2E28CB45F5849A3E2594FF393763F4 /* Pods-SwiftSynchronized_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSynchronized_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		652CABC6EDDA65CEBD8A4F8043921C07 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftSynchronized/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74A6D646EC0216955DB0C02127BB18E4 /* Pods-SwiftSynchronized_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSynchronized_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F10A7A1C7FEFC6F693B2D3DCAF9EDF7 /* SwiftSynchronized.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSynchronized.modulemap; sourceTree = "<group>"; };
+		7F10A7A1C7FEFC6F693B2D3DCAF9EDF7 /* SwiftSynchronized.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftSynchronized.modulemap; sourceTree = "<group>"; };
 		7FE033BE4F6C886290ADD1CAC230381C /* Pods-SwiftSynchronized_ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSynchronized_ExampleTests-dummy.m"; sourceTree = "<group>"; };
 		81A9CFC0863652F4E80203628445DC82 /* SwiftSynchronized.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSynchronized.xcconfig; sourceTree = "<group>"; };
 		883B71DFD72B412C2ADB10614573E941 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		998650A3C4115DC30CCD75BE789EF6AF /* Pods-SwiftSynchronized_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSynchronized_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AD7BB34A53461C0EB3D92EEA99F5880 /* Synchronized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Synchronized.swift; path = SwiftSynchronized/Classes/Synchronized.swift; sourceTree = "<group>"; };
 		9EF3A31FC95ADECCC8037D09F31C1D3D /* Pods-SwiftSynchronized_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSynchronized_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5E3A0A041E370D89B1036993314499F /* Pods-SwiftSynchronized_ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSynchronized_ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6DA50293A8EB379F69D7E40989E661E /* SwiftSynchronized.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSynchronized.framework; path = SwiftSynchronized.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7BABE4DDE393304BEE581495F460914 /* Pods-SwiftSynchronized_ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftSynchronized_ExampleTests.modulemap"; sourceTree = "<group>"; };
+		B6DA50293A8EB379F69D7E40989E661E /* SwiftSynchronized.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSynchronized.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BABE4DDE393304BEE581495F460914 /* Pods-SwiftSynchronized_ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftSynchronized_ExampleTests.modulemap"; sourceTree = "<group>"; };
 		B8706E119DAC4E916288A74518768DE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFF57FFFD4EB5FEFC63B50BB1365CFB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEC6225AC411E5CC2E1A7D77DEADE849 /* Pods-SwiftSynchronized_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSynchronized_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 		70260D49C884AA31318B501FFA2B36C8 /* SwiftSynchronized */ = {
 			isa = PBXGroup;
 			children = (
-				652CABC6EDDA65CEBD8A4F8043921C07 /* ReplaceMe.swift */,
 				9AD7BB34A53461C0EB3D92EEA99F5880 /* Synchronized.swift */,
 				3C58A553C1D1EE01B239440A4A0C3366 /* Support Files */,
 			);
@@ -332,7 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6306036440FDBC90F896556BB1E0609 /* ReplaceMe.swift in Sources */,
 				2184AE0CBE6687A8DCEF62001030ABAD /* SwiftSynchronized-dummy.m in Sources */,
 				78322FEB0A97AFF643F2E408EE9A6436 /* Synchronized.swift in Sources */,
 			);
