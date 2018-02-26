@@ -1,0 +1,22 @@
+{
+  "name": "SwiftSynchronized",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftSynchronized.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nd.packov/SwiftSynchronized",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nd.packov": "nd.packov@tensor.ru"
+  },
+  "source": {
+    "git": "https://github.com/nd.packov/SwiftSynchronized.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftSynchronized/Classes/**/*"
+}

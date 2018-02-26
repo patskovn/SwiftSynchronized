@@ -1,0 +1,16 @@
+PODS:
+  - SwiftSynchronized (0.1.0)
+
+DEPENDENCIES:
+  - SwiftSynchronized (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftSynchronized:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftSynchronized: 4e26acd613eaaf9c318cdecfbda3fa0cc2686dd2
+
+PODFILE CHECKSUM: 18d645a73ada5dd53b6126897549640e17e517ee
+
+COCOAPODS: 1.3.1
